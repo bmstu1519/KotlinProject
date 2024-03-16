@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        
+        {
+            "name": "composeApp",
+            "type": "android-app",
+            "workingDir": "$PROJECT_DIR$",
+            "allowParallelRun": true,
+            "module": "KotlinProject.composeApp.main",
+            "destination": "Nexus S API 21"
+        },
+        {
+            "name": "iosApp",
+            "type": "xcode-app",
+            "workingDir": "$PROJECT_DIR$",
+            "buildTarget": {
+                "project": "iosApp",
+                "target": "iosApp"
+            },
+            "configuration": "Debug",
+            "destination": "iPhone 15 | iOS 17.2"
+        }
+    ]
+}
